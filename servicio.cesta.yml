@@ -1,6 +1,6 @@
 # Discovery Server Access
 port:
-  eurekaServer: 9797
+  eurekaServer: 8765
 
 eureka:
   client:
