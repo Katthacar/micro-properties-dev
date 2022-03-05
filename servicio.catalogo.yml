@@ -4,6 +4,10 @@ server:
   
 port:
   eurekaServer: 8765
+  
+hacarbe:
+  property:
+    refresh: Hello_Brother
 
 #Discovery Server Access
 eureka:
