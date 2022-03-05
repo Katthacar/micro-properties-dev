@@ -7,7 +7,7 @@ port:
   
 hacarbe:
   property:
-    refresh: Hello_Brother
+    refresh: Hello_my_Family
 
 #Discovery Server Access
 eureka:
