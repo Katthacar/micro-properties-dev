@@ -24,4 +24,4 @@ eureka:
     lease-renewal-interval-in-seconds: 300
     
 myPropertySecure:
-  some_value: '{cipher}fdc2b3cc82732751cb7c3129c4eed61d2e989cbd428b322084bd6d49e5f4dac1daac036687bbc10ea7231cdbba91eb1b'
+  some_value: '{cipher}decf133418d159f57301ab51d470ae76c376ac222f31e0b314c8f9a6f221856e'
