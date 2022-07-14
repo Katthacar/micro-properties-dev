@@ -1,13 +1,13 @@
 #HTTP Server
 server:
-  port: 1110
+  port: 1234
   
 port:
-  eurekaServer: 7770
+  eurekaServer: 8765
   
 hacarbe:
   property:
-    refresh: This is my custom refresh property
+    refresh: This is my custom refresh property on micro-properties-dev
 
 #Discovery Server Access
 eureka:
