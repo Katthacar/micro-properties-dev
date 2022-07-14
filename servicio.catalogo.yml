@@ -7,7 +7,7 @@ port:
   
 hacarbe:
   property:
-    refresh: 'This is my custom refresh property'
+    refresh: This is my custom refresh property
 
 #Discovery Server Access
 eureka:
@@ -19,9 +19,9 @@ eureka:
     health-check-url-path: /healthCatalogo
     metadata-map:
        app-owner: hacarbe
-       description: test application for the expert course
+       description: Microservice Catalogo
     initial-status: UP
-    lease-renewal-interval-in-seconds: 300
+    lease-renewal-interval-in-seconds: 60
     
 myPropertySecure:
   some_value: '{cipher}decf133418d159f57301ab51d470ae76c376ac222f31e0b314c8f9a6f221856e'
