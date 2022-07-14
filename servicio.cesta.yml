@@ -1,23 +1,36 @@
 # Discovery Server Access
 port:
-  eurekaServer: 8765
+  eurekaServer: 7777
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:${port.eurekaServer}/eureka
   instance:
+    status-page-url-path: /infoCesta
+    health-check-url-path: /healthCesta
     initial-status: UP
-    lease-renewal-interval-in-seconds: 300
+    lease-renewal-interval-in-seconds: 60
+    metadata-map:
+      app-owner: hacarbe
+      description: Microservice Cesta
 
 # HTTP Server
-server:
-  port: ${PORT:3333}   # HTTP (Tomcat) port
+#server:
+  #port: ${PORT:3333}   # HTTP (Tomcat) port
+ server:
+   port: 3333
   
 spring:
   datasource:
+    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/microservice_cesta
     username: microservice_cesta
     password: microservice_cesta
   jpa:
     generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      database: postgresql
