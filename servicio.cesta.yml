@@ -1,6 +1,6 @@
 # Discovery Server Access
 port:
-  eurekaServer: 7777
+  eurekaServer: 7770
 
 eureka:
   client:
@@ -19,7 +19,7 @@ eureka:
 #server:
   #port: ${PORT:3333}   # HTTP (Tomcat) port
  server:
-   port: 3333
+   port: 2220
   
 spring:
   datasource:
