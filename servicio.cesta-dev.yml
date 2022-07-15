@@ -1,8 +1,8 @@
 # HTTP Server
 #server:
   #port: ${PORT:3333}   # HTTP (Tomcat) port
- server:
-   port: 2345
+server:
+  port: 2345
 
 # Discovery Server Access
 port:
