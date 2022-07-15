@@ -2,11 +2,11 @@
 #server:
   #port: ${PORT:3333}   # HTTP (Tomcat) port
  server:
-   port: 2220
+   port: 2345
 
 # Discovery Server Access
 port:
-  eurekaServer: 7654
+  eurekaServer: 8010
 
 eureka:
   client:
@@ -19,7 +19,7 @@ eureka:
     lease-renewal-interval-in-seconds: 60
     metadata-map:
       app-owner: hacarbe
-      description: Microservice Cesta on micro-properties-dev with profile default
+      description: Microservice Cesta on micro-properties-dev with profile dev
   
 spring:
   datasource:
