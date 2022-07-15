@@ -7,7 +7,7 @@ port:
   
 hacarbe:
   property:
-    refresh: This is my custom refresh property on micro-properties-dev
+    refresh: This is my custom refresh property on micro-properties-dev with profile dev
 
 #Discovery Server Access
 eureka:
