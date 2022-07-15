@@ -18,7 +18,7 @@ eureka:
     metadata-map:
       app-owner: hacarbe
       description: Microservice Cesta on micro-properties-dev with profile dev
-  
+
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
