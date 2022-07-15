@@ -17,7 +17,7 @@ eureka:
     lease-renewal-interval-in-seconds: 60
     metadata-map:
       app-owner: hacarbe
-      description: Microservice Catalogo
+      description: Microservice Catalogo on micro-properties-dev with profile dev
   
 management:
   endpoints:
