@@ -25,3 +25,20 @@ eureka:
     
 myPropertySecure:
   some_value: '{cipher}decf133418d159f57301ab51d470ae76c376ac222f31e0b314c8f9a6f221856e'
+  
+  management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+    restart:
+      enabled: true
+    pause:
+      enabled: true
+    refresh:
+      enabled: true
+    info:
+      enabled: true

@@ -34,3 +34,20 @@ spring:
     properties:
       database-platform: org.hibernate.dialect.PostgreSQLDialect
       database: postgresql
+      
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+    restart:
+      enabled: true
+    pause:
+      enabled: true
+    refresh:
+      enabled: true
+    info:
+      enabled: true

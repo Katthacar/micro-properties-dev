@@ -4,4 +4,22 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka
     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+    restart:
+      enabled: true
+    pause:
+      enabled: true
+    refresh:
+      enabled: true
+    info:
+      enabled: true
